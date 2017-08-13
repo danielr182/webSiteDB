@@ -1,0 +1,100 @@
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/* */
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+  flex: 1 0 auto;
+}
+
+/* label color */
+.input-field label {
+  color: black ;
+}
+/* label focus color */
+.input-field input:focus + label {
+  color: #03a9f4 !important;
+}
+/* label underline focus color */
+.input-field input:focus {
+  border-bottom: 1px solid #03a9f4 !important;
+  box-shadow: 0 1px 0 0 #03a9f4 !important;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #03a9f4;
+}
+
+.image1 {
+  content: url(../images/background1.jpg);
+}
+
+.loginForm {
+  margin-top: 100px;
+}
+
+.imageLogin {
+  background-image: url(../images/backgroundLogin.jpg) !important;
+}
+
+.lionImage {
+  background-image: url(../images/lion.jpg);
+}
+
+body {
+  background-image: url(../images/backgroundLogin2.jpg);
+}

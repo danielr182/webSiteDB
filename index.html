@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>App</title>
+
+		<!-- CSS  -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link href="assets/css/jquery-confirm.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link rel="icon" href="http://localhost:8002/favicon.ico?v=2" />
+	</head>
+	<body ng-app="drivingBehaviorApp">
+		<header></header>
+		<main>
+			<div ng-view></div>
+		</main>
+		<footer class="blue-grey darken-4">
+			<div class="container grey-text text-lighten-1">
+					<p>Lionex Driving Behavior © 2017 Lionex, All rights reserved.</p>
+				</div>
+			</div>
+		</footer>
+		<!--  Scripts  -->
+		<!--  Reference Librerias  -->
+		<script src="assets/lib/jquery.min.js"></script>
+		<script src="assets/lib/jquery-confirm.min.js"></script>
+		<script src="assets/lib/materialize.js"></script>
+		<script src="assets/lib/init.js"></script>
+		<script src="assets/lib/angular.min.js"></script>
+		<script src="assets/lib/angular-route.min.js"></script>
+		<!-- Reference main APP -->
+		<script src="app/app.js"></script>
+		<!-- Reference Services APP -->
+		<script src="app/services/comunServices.js"></script>
+		<!-- Reference Utils APP -->
+		<script src="app/util/constants.js"></script>
+		<script src="app/util/messages.js"></script>
+		<!-- Reference Controladores APP-->
+		<script src="app/controllers/home/homeController.js"></script>
+		<script src="app/controllers/main/mainController.js"></script>
+	</body>
+</html>
