@@ -20,7 +20,7 @@
                 theme: 'material',
                 title: 'Alert!',
                 closeIcon: true,
-                type: 'red',
+                type: 'blue',
                 typeAnimated: true,
                 buttons: {
                   aceptar: {
